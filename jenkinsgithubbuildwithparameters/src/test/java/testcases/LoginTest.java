@@ -13,6 +13,8 @@ public class LoginTest {
 	@Test
 	public void TC001(String browser) throws InterruptedException {
 		
+		System.out.println("Inside testcase no TC001");
+		
 		WebDriver driver  = null;
 		//browser = "chrome";
 		if (browser.contains("chrome")){
